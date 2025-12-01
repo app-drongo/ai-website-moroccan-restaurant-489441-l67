@@ -1,15 +1,7 @@
-import Hero from '@/components/sections/home/Hero'
-import Restaurantmenu from '@/components/sections/home/Restaurantmenu'
-
-export default function HomePage() {
+export default function ComponentPage() {
   return (
-    <>
-      <section id="hero">
-        <Hero />
-      </section>
-      <section id="restaurant-menu">
-        <Restaurantmenu />
-      </section>
-    </>
+    <div className="min-h-screen flex items-center justify-center">
+      <h1 className="text-4xl font-bold">undefined</h1>
+    </div>
   )
 }
